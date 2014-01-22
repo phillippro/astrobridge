@@ -3,6 +3,8 @@ astrobridge
 
 a software to calibrate astro-photos from ccd and cmos cameras
 
+This is version 1.0 which only calibrate JPG images. 
+
 aim: To introduce how to use python to do astronomical image calibration.
 
 function: To calibrate jpg images and generate calibrated jpg and fits images
@@ -22,16 +24,15 @@ data/objects, respectively.
 3. Run code
    The bash code is used to calibrate all images.
    You can use it like this: 
-   source astro_bridge_jpg.sh e1 e2
+   source astrobridge_jpg.sh e1 e2
    or
-   /bin/bash astro_bridge_jpg.sh e1 e2
+   /bin/bash astrobridge_jpg.sh e1 e2
    or
-   ./astro_bridge_jpg.sh e1 e2
+   ./astrobridge_jpg.sh e1 e2
    , where e1, e2 are exposure time of darks and flats separately. 
 
-- The code astro_bridge_jpg.sh and calibration_jpg.sh should be put into calibration/ 
+- The code astrobridge_jpg.sh and calibration_jpg.sh should be put into calibration/ 
 
-- The code resize_jpg.py is used to resize jpg files
 
 4. Note
 - Our software will skip the calibratoin of those photos who has already
