@@ -29,14 +29,11 @@ data/objects, respectively.
    /bin/bash astrobridge_jpg.sh e1 e2
    or
    ./astrobridge_jpg.sh e1 e2
-   , where e1, e2 are exposure time of darks and flats separately. 
-
-- The code astrobridge_jpg.sh and calibration_jpg.sh should be put into calibration/ 
+   , where e1, e2 are exposure time of darks and flats separately. Note: The code astrobridge_jpg.sh and calibration_jpg.sh should be put into calibration/ 
 
 
-4. Note
-- Our software will skip the calibratoin of those photos who has already
+4. Note: 
+   a. Our software will skip the calibratoin of those photos who has already
   been calibrated (ie the calibrated file exist!)
-
-- Our software can be easily updated to calibrate images in .NEF, other raw formats and fits directly.
+   b. Our software can be easily updated to calibrate images in .NEF, other raw formats and fits directly.
 
