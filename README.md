@@ -35,6 +35,7 @@ data/objects, respectively.
 
 
 4. Notes: 
+
    a. Our software will skip the calibratoin of those photos who have already been calibrated (ie the calibrated file exist!)
 
    b. Our software can be easily updated to calibrate images in .NEF, other raw formats and fits directly.
