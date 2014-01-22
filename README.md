@@ -4,6 +4,7 @@ astrobridge
 a software to calibrate astro-photos from ccd and cmos cameras
 
 aim: To introduce how to use python to do astronomical image calibration.
+
 function: To calibrate jpg images and generate calibrated jpg and fits images
 
 1. Make directory
