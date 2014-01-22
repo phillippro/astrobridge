@@ -11,9 +11,9 @@ function: To calibrate jpg images and generate calibrated jpg and fits images
 
 1. Make directory
 
-The main folder: put all stuff, e.g. calibration
-The data folder: put photos, e.g. calibration/data
-The calibrated folder: put calibrated photos, e.g. calibration/calibrated_image
+   The main folder: put all stuff, e.g. calibration
+   The data folder: put photos, e.g. calibration/data
+   The calibrated folder: put calibrated photos, e.g. calibration/calibrated_image
 
 2. Take photos
 
