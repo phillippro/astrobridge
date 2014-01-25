@@ -26,13 +26,15 @@ mv data/object/*.fits data/object/*-calibrate.JPG calibrated_image
 ###note: here $3 is the reference image, should be input in the command line
 ###in the test images, I choose ref=DSC0019, i.e. outfolder= stacked_image
 if [ $3='' ]; then
-    echo 'no reference image!'
+    echo 'No reference image, I will use any one of them instead!'
+    python stack_image.py stack_fits calibrated_image (calibrated_image/*) "stacked_image"
 else
     python stack_image.py stack_fits calibrated_image $3 "stacked_image"
 fi
 ###combine images to create rgb images, the input parameter is "intersect" or "union"
 if [ $4='' ]; then
     echo 'No mode for rgb stack, I will use intersect by default!'
+    python stack_image.py create_rgb_stacked "intersect"
 else
     python stack_image.py create_rgb_stacked $4
 fi
