@@ -33,15 +33,15 @@ data/objects, respectively.
    The bash code is used to calibrate all images.
    You can use it like this: 
    
-   source astrobridge_jpg.sh e1 e2
+   source astrobridge_jpg.sh e1 e2 reference_image mod
    
    or
-   /bin/bash astrobridge_jpg.sh e1 e2
+   /bin/bash astrobridge_jpg.sh e1 e2 reference_image mod
    
    or
-   ./astrobridge_jpg.sh e1 e2
+   ./astrobridge_jpg.sh e1 e2 reference_image mod
    
-   , where e1, e2 are exposure time of darks and flats separately. 
+   , where e1, e2 are exposure time of darks and flats separately,  reference image is for stack and mod is the stack mode. 
 
    Note: The code astrobridge_jpg.sh and calibration_jpg.sh should be put into calibration/ 
 
